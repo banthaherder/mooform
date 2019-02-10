@@ -1,6 +1,4 @@
 project_path: "./infra"
-state: "planned"
-plan_file: "test.tfplan"
 init: "yes"
 backend_config:
 lock: "yes"

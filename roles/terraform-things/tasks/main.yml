@@ -12,8 +12,9 @@
     variables_file: "{{ terraform_vars_file }}"
     workspace: "{{ workspace }}"
   register: result
-  tags: plan,apply,destroy
+  tags: always
 
-- debug:
+- name: Display terraform 
+  debug:
     var: result
-  tags: plan,apply,destroy
+  tags: always
