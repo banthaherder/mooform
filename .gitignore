@@ -4,3 +4,4 @@
 *.tfstate*
 runlog
 ansible.cfg
+tf_config.yml

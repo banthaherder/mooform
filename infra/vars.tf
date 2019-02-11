@@ -1,2 +1,1 @@
-variable "test" {}
-variable "test2" {}
+variable "pub_key" {}

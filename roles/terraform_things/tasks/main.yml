@@ -2,15 +2,15 @@
   terraform2:
     project_path: "{{ project_path }}"
     state: "{{ state }}"
-    force_init: "{{ init }}"
+    force_init: "yes"
     plan_file: "{{ plan_file }}"
-    backend_config:
-      "{{ backend_config }}"
     lock: "{{ lock }}"
     targets: "{{ targets }}"
     variables: "{{ terraform_vars }}"
     variables_file: "{{ terraform_vars_file }}"
     workspace: "{{ workspace }}"
+    backend_config:
+      "{{ backend_config }}"
   register: result
   tags: always
 
