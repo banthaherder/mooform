@@ -13,3 +13,4 @@ A few examples:
 - Plan: `ansible-playbook terraform-playbook.yml --tags=plan`
 - Plan, apply, and destroy: `ansible-playbook terraform-playbook.yml --tags=plan,apply,destroy`
 - Plan and override terraform variable: `ansible-playbook terraform-playbook.yml --tags=plan,apply,destroy --e 'terraform_vars={"test":"test"}'`
+

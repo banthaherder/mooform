@@ -1,3 +1,6 @@
 *.retry
 .terraform
+*.tfplan
 *.tfstate*
+runlog
+ansible.cfg

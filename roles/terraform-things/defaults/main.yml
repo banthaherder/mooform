@@ -1,8 +1,0 @@
-project_path: "./infra"
-init: "yes"
-backend_config:
-lock: "yes"
-targets:
-terraform_vars:
-terraform_vars_file:
-workspace: "default"
