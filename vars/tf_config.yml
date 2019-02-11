@@ -1,0 +1,11 @@
+---
+project_path: "./infra" # The path to the Terraform project
+plan_file: "test.tfplan" # The path to the plan file relative to the Terraform project path
+init: "yes" # Run `terraform init` or not
+backend_config: # Backend config (e.g. S3 bucket)
+lock: # Locking 'yes' or 'no'
+targets: # A dictionary of a Terraform Resource Addresses to target
+terraform_vars: # A dictionary of Terraform variables to pass
+  test: "test"
+  test2: "test2"
+terraform_vars_file: # The path to a Terraform variable file
