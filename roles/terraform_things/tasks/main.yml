@@ -14,7 +14,12 @@
   register: result
   tags: always
 
+- name: Display execution stdout
+  debug:
+    var: result.stdout_lines
+  tags: always
+
 - name: Display terraform outputs
   debug:
-    var: result
-  tags: always
+    var: result.outputs
+  tags: apply
